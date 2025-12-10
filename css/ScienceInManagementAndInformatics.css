@@ -1,0 +1,16 @@
+.video-container {
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.video-player {
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+#videoOverlay {
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated; /* Remove if it makes it worse */
+}

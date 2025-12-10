@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>academic programmes</title>
+    <link rel="stylesheet" href="css/libraries/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/libraries/all.min.css" />
+    <link rel="stylesheet" href="css/libraries/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div id="loader"></div>
+    <!-- start topbar -->
+    <div
+      class="topbar px-5 py-3 d-flex flex-column gap-3 flex-md-row d-md-flex justify-content-between align-items-center"
+    >
+      <div class="right d-flex gap-3">
+        <span class="search flex-center pointer">
+          <i class="fas fa-search text-main-color"></i>
+        </span>
+        <span class="lang text-main-color flex-center pointer"> En </span>
+      </div>
+      <div class="left">
+        <ul
+          class="list-unstyled d-flex gap-2 gap-md-4 mb-0 flex-wrap justify-content-center"
+        >
+          <li>
+            <a href="#" class="text-decoration-none text-main-color"
+              >الخريجون</a
+            >
+          </li>
+          <!-- <li>
+            <a href="#" class="text-decoration-none text-main-color"
+              >المركز الاعلامي
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+          </li> -->
+          <li>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                المركز الاعلامي
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <ul
+                class="dropdown-menu text-end"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                التدريب
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <ul
+                class="dropdown-menu text-end"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                التوظيف
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <ul
+                class="dropdown-menu text-end"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- start banner  -->
+    <div class="banner position-relative">
+      <nav class="navbar navbar-expand-xl navbar-light py-4">
+        <div class="container-fluid px-3 px-lg-5">
+          <a class="navbar-brand" href="./academic-programmes.html">
+            <img src="images/home/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse p-4" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 me-lg-5 gap-4">
+              <li class="nav-item">
+                <a class="nav-link active" href="./academic-programmes.html">
+                  الرئيسية</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./bachelor-of-nursing.html">
+                  العلوم في التمريض
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="./ScienceInManagementAndInformatics.html"
+                >
+                  العلوم في الإدارة الصحية والمعلوماتية
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"> سجل الان </a>
+              </li>
+            </ul>
+
+            <button class="btn submit-now" type="submit">سجل الان</button>
+          </div>
+        </div>
+      </nav>
+      <div class="layer position-absolute top-0 bottom-0 left-0 right-0 w-100">
+        <div class="container">
+          <div class="content d-flex flex-column gap-3 position-absolute">
+            <h2
+              class="text-main-color"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              البرامج الأكاديمية
+            </h2>
+            <img
+              class="group"
+              src="images/home/Group.png"
+              alt="Group"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            />
+            <p data-aos="fade-up" data-aos-duration="1000">
+              <img src="images/home/home.png" alt="home" />
+              <span class="text-main-color">الرئيسية</span>
+              <img src="images/home/cheveron.png" alt="cheveron" />
+              <span class="text-main-color">البرامج الأكاديمية</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start academic programmes -->
+    <div class="academic-programmes py-3 py-lg-5">
+      <div class="container">
+        <div
+          class="d-flex align-items-center gap-2 title mb-3 mb-lg-5"
+          data-aos="fade-up"
+          data-aos-duration="600"
+        >
+          <img src="images/home/group2.png" alt="group-2" />
+          <h2 class="text-main-color pe-2">البرامج الأكاديمية</h2>
+        </div>
+        <h3
+          class="text-main-color desc"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
+          في كلية الموسى للعلوم الصحية نُعدّ طلبتنا لمستقبل الرعاية الصحية
+          والتحول الرقمي، ونمكّنهم بالمعرفة والمهارات التي تعزز دورهم في خدمة
+          المجتمع وتطوير الأنظمة الصحية.  ونوفر لهم بيئة تعليمية متقدمة تفتح
+          آفاقًا مهنية واسعة وتصنع أثرًا في قطاع الصحة
+        </h3>
+        <div class="row mt-3 mt-lg-4 g-3">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="600">
+            <div class="right-side">
+              <div
+                class="right-side-overlay position-absolute top-0 left-0 bottom-0 right-0 w-100 h-100"
+              >
+                <div
+                  class="content position-absolute d-flex justify-content-between align-items-end"
+                >
+                  <div class="d-flex gap-2 align-items-end">
+                    <img src="images/home/academic-icon.png" alt="" />
+                    <h5 class="text-white">العلوم في التمريض</h5>
+                  </div>
+                  <div class="icon pointer">
+                    <img src="images/home/arrow.png" alt="arrow" />
+                  </div>
+                </div>
+              </div>
+              <img
+                src="images/home/academic-programme1.jpg"
+                alt="academic-programme"
+              />
+            </div>
+            <h4 class="mt-2 mt-lg-4 position-relative">
+              العلوم في التمريض
+              <span class="position-absolute"></span>
+            </h4>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+            <div class="left-side">
+              <div
+                class="left-side-overlay position-absolute top-0 left-0 bottom-0 right-0 w-100 h-100"
+              >
+                <div
+                  class="content position-absolute d-flex justify-content-between align-items-end"
+                >
+                  <div class="d-flex gap-2 align-items-end">
+                    <div class="icon pointer">
+                      <img src="images/home/academic-icon.png" alt="" />
+                    </div>
+                    <h5 class="text-white">
+                      العلوم في الإدارة الصحية والمعلوماتية
+                    </h5>
+                  </div>
+                  <div class="icon">
+                    <img src="images/home/arrow.png" alt="arrow" />
+                  </div>
+                </div>
+              </div>
+
+              <img
+                src="images/home/academic-programme2.jpg"
+                alt="academic-programme"
+              />
+            </div>
+            <h4 class="mt-2 mt-lg-4 position-relative">
+              العلوم في الإدارة الصحية والمعلوماتية
+              <span class="position-absolute"></span>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start back to top -->
+    <div
+      class="back-to-top d-flex align-items-center justify-content-center gap-2 pointer"
+    >
+      <h5 class="text-main-color">العودة إلى الأعلى</h5>
+      <img src="images/home/arrow-top.png" alt="arrow-top" />
+    </div>
+    <!-- start footer -->
+    <footer class="mt-3 pt-5 pb-4 position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-6 col-md-3">
+                <h5>البرامج الأكاديمية</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">العلوم في التمريض</a></li>
+                  <li>
+                    <a href="#">
+                      العلوم في الإدارة الصحية
+                      <br />
+                      والمعلوماتية</a
+                    >
+                  </li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5>طلابنا فخرنا</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#"> القبول والتسجيل</a></li>
+                  <li>
+                    <a href="#">شؤون الطلاب</a>
+                  </li>
+                  <li><a href="#"> جولة افتراضية 360° </a></li>
+                  <li><a href="#"> مرافق الكلية</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5>المركز الاعلامي</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#"> الأخبار </a></li>
+                  <li>
+                    <a href="#"> الفعاليات </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6 col-md-3">
+                <h5>روابط مفيدة</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#"> مركز الأبحاث </a></li>
+                  <li>
+                    <a href="#"> مركز الابتكار </a>
+                  </li>
+                  <li><a href="#"> التوظيف </a></li>
+                  <li><a href="#"> التدريب</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="social d-flex flex-column gap-4 align-items-center">
+              <h4 class="pointer d-flex align-items-center gap-2">
+                <span> كن على اطلاع دائم، محتوى يهمك </span>
+                <img src="images/home/arrow.png" alt="arrow" />
+              </h4>
+              <img
+                src="images/home/footer-icon.png"
+                class="group"
+                alt="footer-icon"
+              />
+              <ul class="list-unstyled d-flex align-items-center gap-3">
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-square-snapchat"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa-solid fa-envelope"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="logo pointer mb-3 mb-md-5 text-center text-lg-end">
+          <a href="./academic-programmes.html">
+            <img src="images/home/footer-logo.png" alt="footer-logo" />
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="footer-bottom position-absolute footer-bottom d-none d-lg-block"
+      >
+        <img
+          src="images/home/Isolation_Mode.png"
+          class="w-100 h-100"
+          alt="footer-icon"
+        />
+      </div>
+    </footer>
+    <!-- start copy right -->
+    <div class="copy-right py-2 text-main-color">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-lg-row align-items-center justify-content-between"
+        >
+          <p>© 2025 كلية الموسى للعلوم الصحية، جميع الحقوق محفوظة</p>
+          <p>سياسة الخصوصية | شروط الاستخدام</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/libraries/all.min.js"></script>
+    <script src="js/libraries/bootstrap.bundle.min.js"></script>
+    <script src="js/libraries/jquery-3.7.1.min.js"></script>
+    <script src="js/libraries/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
