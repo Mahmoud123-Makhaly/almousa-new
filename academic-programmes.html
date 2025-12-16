@@ -119,6 +119,27 @@
         </ul>
       </div>
     </div>
+    <!-- start search bar -->
+    <div id="searchOverlay" class="search-overlay">
+      <div class="search-container">
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="ابحث    ..."
+            autocomplete="off"
+          />
+          <button id="searchButton" class="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+          <button id="closeSearch" class="close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </div>
     <!-- start banner  -->
     <div class="banner position-relative">
       <nav class="navbar navbar-expand-xl navbar-light py-4">
@@ -413,6 +434,8 @@
     <script src="js/libraries/bootstrap.bundle.min.js"></script>
     <script src="js/libraries/jquery-3.7.1.min.js"></script>
     <script src="js/libraries/aos.js"></script>
+
+    <script src="js/search.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
